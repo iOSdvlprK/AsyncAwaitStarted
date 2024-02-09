@@ -47,7 +47,9 @@ struct ContentView: View {
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button(action: {
-                        
+                        async {
+                            await populateDates()
+                        }
                     }, label: {
                         Image(systemName: "arrow.clockwise.circle")
                     })
