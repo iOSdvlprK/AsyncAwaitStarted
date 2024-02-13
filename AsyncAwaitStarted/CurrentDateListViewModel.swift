@@ -11,7 +11,7 @@ import Foundation
 class CurrentDateListViewModel: ObservableObject {
     @Published var currentDates: [CurrentDateViewModel] = []
     
-    func populateDates() async throws {
+    func populateDates() async {
         do {
             let currentDate = try await Webservice().getDate()
             if let currentDate = currentDate {
