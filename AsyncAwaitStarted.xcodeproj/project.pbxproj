@@ -25,6 +25,7 @@
 		D89AE79C2B751E1000208206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D89AE79F2B751E1000208206 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D8F0C40F2B7BB249003FBE19 /* CurrentDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDate.swift; sourceTree = "<group>"; };
+		D8F2A3EE2B7E525F00ACD445 /* ContinuationPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ContinuationPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 				D89AE79E2B751E1000208206 /* Preview Content */,
 				D8666A532B7A5902006DBCD7 /* Webservice.swift */,
 				D8666A552B7A59CC006DBCD7 /* CurrentDateListViewModel.swift */,
+				D8F2A3EE2B7E525F00ACD445 /* ContinuationPlayground.playground */,
 			);
 			path = AsyncAwaitStarted;
 			sourceTree = "<group>";
